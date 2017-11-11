@@ -1,0 +1,40 @@
+.DS_Store
+
+application/cache/
+application/helpers/
+application/core/
+application/hooks/
+application/logs/
+application/models/
+application/views/
+application/third_party/
+application/*.htaccess
+application/*.html
+
+application/config/*
+!application/config/aauth.php
+
+application/controllers/*
+!application/controllers/example.php
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+
+# Codeigniter Source Files
+#-------------------------
+
+system/
+user_guide/
+composer.json
+index.php
